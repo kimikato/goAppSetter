@@ -39,22 +39,25 @@ AppSetter をたたくプログラム
 
 設定ファイル
 ------
+
+```
 servers:
     - server:
         scheme: http
-        host: dev-apib.zozoclub.jp
+        host: 192.168.0.1
         port: 80
         path: /asp/admin/AppSetter.asp
     - server:
         scheme: http
-        host: dev-apib.zozoclub.jp
+        host: dev-web.example.com
         port: 80
-        path: /s_api/asp/admin/AppSetter.asp
+        path: /api/asp/admin/AppSetter.asp
     - server:
         scheme: http
-        host: dev-soso-api.zozoclub.jp
+        host: dev-api.example.com
         port: 80
         path: /asp/admin/AppSetter.asp
+```
 
 - `servers:` サーバ情報
     - `- server:` サーバ情報（配列）
@@ -62,6 +65,7 @@ servers:
         - `host:` ホスト
         - `post:` ポート
         - `path:` AppSetterへのパス
+
 
 使い方
 ------

@@ -4,12 +4,12 @@
 servers:
   - server:
       scheme: http
-      host: dev-apib.zozoclub.jp
+      host: 192.168.0.1
       port: 80
       path: /asp/admin/AppSetter.asp
   - server:
       scheme: http
-      host: dev-soso-api.zozoclub.jp
+      host: 192.168.0.2
       port: 80
-      path: /asp/admin/AppSetter.xxxasp
+      path: /asp/admin/AppSetter.asp
     
